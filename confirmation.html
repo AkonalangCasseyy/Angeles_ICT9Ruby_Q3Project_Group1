@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FareFlow - Confirmation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html { height: 100%; margin: 0; }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957');
+            background-size: cover; height: 100vh; color: white;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .hero-box {
+            background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);
+            border-radius: 15px; padding: 3rem; border: 1px solid rgba(255,255,255,0.2);
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">FareFlow</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="hero-box">
+            <h1 class="display-4">Your Account has been <span class="text-warning">created.</span></h1>
+            <p class="mt-4">▼ Click below to finish</p>
+            <a href="https://mail.google.com/mail/" class="btn btn-outline-info">Verify your email</a>
+        </div>
+    </header>
+
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom" style="font-size: 13px;">
+        <p>Ducut, Mallari, Rivera | 9 Ruby ©2026</p>
+    </footer>
+
+</body>
+</html>
